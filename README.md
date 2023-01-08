@@ -62,7 +62,10 @@
 -   Meta Tags - generate metadata. [Generate metadata](https://metatags.io/)
 -   Coolors - colour palette generator. [Generate colour palette](https://coolors.co/generate)
 -   Google Fonts - a library of free fonts. [Get Google Fonts](https://fonts.google.com/)
-
+- material ui
+- dotenv
+- react router dom
+  - need to uninstall bootstrap
 ## Project Status
 
 Project is ongoing

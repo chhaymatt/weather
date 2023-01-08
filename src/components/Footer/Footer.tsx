@@ -1,14 +1,18 @@
+import { Button } from "@mui/material"
+
 const Footer = () => {
-	const year = new Date().getFullYear();
+    const year = new Date().getFullYear()
 
-	return (
-		<footer>
-			<a
-				target="_blank"
-				rel="noreferrer"
-				href="https://matthewchhay.com/">{`${year} | Made by Matthew Chhay`}</a>
-		</footer>
-	);
-};
+    return (
+        <footer>
+            <Button
+                variant="text"
+                target="_blank"
+                rel="noreferrer"
+                href="https://matthewchhay.com/"
+            >{`${year} | Made by Matthew Chhay`}</Button>
+        </footer>
+    )
+}
 
-export default Footer;
+export default Footer
